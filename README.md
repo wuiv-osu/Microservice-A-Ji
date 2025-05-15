@@ -28,3 +28,5 @@ import requests
 
 response = requests.get("http://localhost:5001/saved-recipes")
 recipes = response.json()
+
+[UML Sequence Diagram](UML Diagram Microservice A.png)
